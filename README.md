@@ -38,9 +38,11 @@ Será entregue um dashboard em PowerBI, para gestão dos indicadores e rotina de
 
 ### Backlog do Produto
 
-![Captura de tela 2022-11-10 163457](https://user-images.githubusercontent.com/96497622/201200410-6dd9b6e8-d167-4f9c-9fc1-15f4ee15424b.png)
+| Sprint 1 | Sprint 2 | Sprint 3 |
+|--- |--- |--- |
+| A. Teste e validação da base de dados <br> B. Processo ETL e Construção do data warehouse | A. Protótipo do app de triagem assíncrona <br> B. Teste e validação do app de triagem assíncrona | A. Conexão do banco de dados e ETL <br> B. Construção dos dashboards
 
-## 4. Coleta e Extração dos Dados
+## 4. Estrutura dos Dados
 
 O dataset a ser utilizado foi extraído da plataforma de dados abertos [Kaggle](https://www.kaggle.com/datasets/ilkeryildiz/emergency-service-triage-application) e possui 1267 registros de pacientes admitidos em um pronto-socorro da Coreia do Sul entre os meses de outubro de 2016 e setembro de 2017.
 
@@ -67,6 +69,10 @@ O dataset a ser utilizado foi extraído da plataforma de dados abertos [Kaggle](
 | KTAS_expert | int | Classificação de risco pelo enfermeiro do segundo atendimento
 | tempo_PS_min | int | Tempo no pronto-socorro (min)
 | duracao_triagem_min | decimal(3,2) | Tempo de duração da triagem (min)
+
+Com as colunas acima foi criada uma tabela fato 'triage' no `MySQL`, contendo as informações de atendimento de cada paciente. Também foram criadas e populadas as tabelas dimensão 'risco', 'transporte', 'estado_mental' e 'atendimento'.
+
+Foram realizados procedimentos ETL nos dados, ainda em ambiente do banco de dados
 
 ## 5. Ferramentas
 
