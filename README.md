@@ -4,7 +4,9 @@
 
 ## 1. Objetivo
 
-Este projeto foi desenvolvido para fins de conclusão do curso de MBA em Business Intelligence da [XP Educação](https://www.xpeducacao.com.br/). O objetivo é integrar os conhecimentos aprendidos durante os módulos do curso e aplicar em desafio de cenário real, utilizando técnicas e conceitos de design thinking. Por isso, o projeto será apresentado a seguir com todo o contexto do desafio e as etapas até chegar na solução.
+Este projeto foi desenvolvido para fins de conclusão do curso de MBA em Business Intelligence da [XP Educação](https://www.xpeducacao.com.br/). O objetivo é integrar os conhecimentos aprendidos durante os módulos do curso e aplicar em desafio de cenário real, utilizando técnicas e conceitos de design thinking. 
+
+Este repositório é um resumo do relatório final elaborado para o Projeto Aplicado e será apresentado abaixo com o contexto do desafio e as etapas até chegar na solução.
 
 ## 2. Contexto
 
@@ -12,7 +14,9 @@ Analisando o contexto das unidades de pronto-socorro de hospitais, notou-se uma 
 
 Os centros de triagem em prontos-socorros geralmente são o gargalo dos atendimentos. É importante aprimorar o processo de triagem desta etapa inicial do atendimento para otimizar a tomada de ação e aumentar o tempo de resposta aos sintomas e efeitos que nem sempre são perceptíveis.
 
-![Captura de tela 2022-11-10 145414](https://user-images.githubusercontent.com/96497622/201183350-4b33dbf1-208e-42da-aedd-e9b5c649f50a.png)
+### Matriz CSD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Observação do tipo POEMS
+
+![Captura de tela 2022-11-10 151237](https://user-images.githubusercontent.com/96497622/201185567-b59c0612-a97d-4fa2-bb60-91f99c4a95a6.png)
 
 ### Personas
 
@@ -23,6 +27,10 @@ Foram elaborados os mapas de empatia do paciente e do enfermeiro, nesta ordem.
 ### Canvas da Proposta de Valor
 
 <img width="1046" alt="Canvas" src="https://user-images.githubusercontent.com/96497622/201183422-c6875563-afe1-40c6-8c84-d9d5369e0454.png">
+
+### Hipóteses
+
+
 
 ## 2. Coleta e Extração dos Dados
 
