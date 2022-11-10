@@ -14,9 +14,9 @@ Analisando o contexto das unidades de pronto-socorro de hospitais, notou-se uma 
 
 Os centros de triagem em prontos-socorros geralmente são o gargalo dos atendimentos. É importante aprimorar o processo de triagem desta etapa inicial do atendimento para otimizar a tomada de ação e aumentar o tempo de resposta aos sintomas e efeitos que nem sempre são perceptíveis.
 
-### Matriz CSD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Observação do tipo POEMS
+### Matriz CSD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Observação do tipo POEMS
 
-![Captura de tela 2022-11-10 151237](https://user-images.githubusercontent.com/96497622/201185567-b59c0612-a97d-4fa2-bb60-91f99c4a95a6.png)
+![eeCaptura de tela 2022-11-10 152629](https://user-images.githubusercontent.com/96497622/201188103-c19f3ed3-33e4-42ff-8b46-044a98b43a4c.png)
 
 ### Personas
 
@@ -28,9 +28,9 @@ Foram elaborados os mapas de empatia do paciente e do enfermeiro, nesta ordem.
 
 <img width="1046" alt="Canvas" src="https://user-images.githubusercontent.com/96497622/201183422-c6875563-afe1-40c6-8c84-d9d5369e0454.png">
 
-### Hipóteses
+### Hipóteses &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Priorização de Ideias
 
-
+![Captura de tela 2022-11-10 152434](https://user-images.githubusercontent.com/96497622/201187854-714118e2-38a0-43e0-a508-6bfb9026857e.png)
 
 ## 2. Coleta e Extração dos Dados
 
