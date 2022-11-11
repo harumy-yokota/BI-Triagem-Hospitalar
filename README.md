@@ -2,11 +2,15 @@
 
 <img width="1800" alt="Triagem Hospitalar" src="https://user-images.githubusercontent.com/96497622/201183316-0a61a1a5-a99f-4bdb-9aac-0edd12e43216.png">
 
+
+
 ## 1. Objetivo
 
 Este projeto foi desenvolvido para fins de conclusão do curso de MBA em Business Intelligence da [XP Educação](https://www.xpeducacao.com.br/). O objetivo é integrar os conhecimentos aprendidos durante os módulos do curso e aplicar em desafio de cenário real, utilizando técnicas e conceitos de design thinking. 
 
 Este repositório é um resumo do relatório final elaborado para o Projeto Aplicado e será apresentado abaixo com o contexto do desafio e as etapas até chegar na solução.
+
+
 
 ## 2. Contexto
 
@@ -32,6 +36,8 @@ Foram elaborados os mapas de empatia do paciente e do enfermeiro, nesta ordem.
 
 ![Captura de tela 2022-11-10 152434](https://user-images.githubusercontent.com/96497622/201187854-714118e2-38a0-43e0-a508-6bfb9026857e.png)
 
+
+
 ## 3. Solução Proposta
 
 Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina de atendimento dos processos de triagem do pronto-socorro. Dessa forma, o trabalho de categorização de pacientes na triagem por meio de técnicas de business intelligence e análise e exploração de dados, poderá auxiliar esses profissionais em uma análise mais rápida para ajudar a acelerar o fluxo de atendimento de urgências e emergências.
@@ -41,6 +47,8 @@ Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina
 | Sprint 1 | Sprint 2 | Sprint 3 |
 |--- |--- |--- |
 | A. Teste e validação da base de dados <br> B. Processo ETL e Construção do data warehouse | A. Protótipo do app de triagem assíncrona <br> B. Teste e validação do app de triagem assíncrona | A. Conexão do banco de dados e ETL <br> B. Construção dos dashboards
+
+
 
 ## 4. Estrutura dos Dados
 
@@ -76,6 +84,8 @@ Foram realizados procedimentos ETL nos dados, ainda em ambiente do banco de dado
 
 ![dsfsdfsd](https://user-images.githubusercontent.com/96497622/201231190-cf87e3a4-5f42-4750-9ce0-c7b06757b920.png)
 
+
+
 ## 5. Técnicas de Análise
 
 Foram utilizadas técnicas de exploração dos dados (AED) para agregação e sumarização dos registros, para atender o objetivo do projeto, além de conceitos de bancos de dados relacionais e modelagem de dados para fazer o relacionamento entre as tabelas.
@@ -86,6 +96,8 @@ Como o objetivo da construção dos dashboards é auxiliar no processo de triage
 
 Os planos de fundo das duas telas do dashboard foram construídas no Figma, um editor online para design de interface.
 
+
+
 ## 6. Resultados
 
 Quesitos que o dashboard tem que responder, entre outros:
@@ -93,14 +105,25 @@ Quesitos que o dashboard tem que responder, entre outros:
 -	Tempo médio de duração da triagem total e por classificação de risco;
 -	Porcentagem de acurácia entre a classificação de risco feita pelo enfermeiro de primeiro atendimento na triagem e o enfermeiro expert, já no atendimento médico;
 
-### Dashboard
-
 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9)
 
 ![Captura de tela 2022-11-11 135448](https://user-images.githubusercontent.com/96497622/201401213-d5f1cb5e-1e38-4eae-ab8c-673bbc339b1e.png)
 
 ![Captura de tela 2022-11-11 135508](https://user-images.githubusercontent.com/96497622/201401229-a9573055-91fc-4abf-ab0a-07251cb7694a.png)
 
+Ao longo de 3 sprints, foram desenvolvidas as atividades planejadas no backlog do produto, resultando em uma aplicação que é capaz de receber os dados de registros médicos de pacientes, armazená-los e processá-los para gerar dashboards em tempo real que auxiliam o processo de triagem de prontos-socorros.
+
+Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas. E um ponto interessante é a possibilidade de extrair insights tanto gerenciais, quanto operacionais. O dashboard Visão Geral traz informações amplas sobre os atendimentos do pronto-socorro, como a média total de tempo de triagem e a quantidade de pacientes em cada ala do hospital, durante e após a triagem. Já o dashboard Detalhamento contém informações mais específicas da área médica, como a correlação idade vs oximetria, pressão sistólica vs diastólica, além do grau de risco atribuído pelo enfermeiro da triagem inicial e o enfermeiro expert.
+
 ## 7. Experiências Vivenciadas
 
-## Próximos Passos
+- É essencial conhecer a área de negócios para o qual está desenvolvendo um projeto de BI. Neste caso, ter conhecimento dos valores de referências de atributos médicos ajudou a realizar o processo de análise exploratória dos dados e a plotar os gráficos e o estabelecimento das linhas de especificação.
+- Foi necessário criar uma coluna para id_paciente, visto que o dataset não tinha um identificador único para cada registro de paciente.
+
+
+
+## 8. Próximos Passos
+
+Foi considerado no projeto o desenvolvimento de uma aplicação em `Power Apps` para a coleta assíncrona de informações médicas dos pacientes, antes que cheguem ao pronto-socorro. O aplicativo foi desenvolvido e testado em seu preenchimento, porém ficará como ações a serem desenvolvidas: 
+- Desenvolver os comandos para a exportação do preenchimento para uma tabela e;
+- Criar conexão entre o aplicativo diretamente para o dashboard em Power BI.
