@@ -40,7 +40,7 @@ Foram elaborados os mapas de empatia do paciente e do enfermeiro, nesta ordem.
 
 ## 3. Solução Proposta
 
-Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina de atendimento dos processos de triagem do pronto-socorro. Dessa forma, o trabalho de categorização de pacientes na triagem por meio de técnicas de business intelligence e análise e exploração de dados, poderá auxiliar esses profissionais em uma análise mais rápida para ajudar a acelerar o fluxo de atendimento de urgências e emergências.
+Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina de atendimento dos processos de triagem do pronto-socorro. Dessa forma, o trabalho de categorização de pacientes na triagem por meio de técnicas de business intelligence e análise e exploração de dados poderá auxiliar esses profissionais em uma análise mais rápida para ajudar a acelerar o fluxo de atendimento de urgências e emergências.
 
 ### Backlog do Produto
 
@@ -52,7 +52,7 @@ Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina
 
 ## 4. Estrutura dos Dados
 
-O dataset a ser utilizado foi extraído da plataforma de dados abertos [Kaggle](https://www.kaggle.com/datasets/ilkeryildiz/emergency-service-triage-application) e possui 1267 registros de pacientes admitidos em um pronto-socorro da Coreia do Sul entre os meses de outubro de 2016 e setembro de 2017.
+O dataset utilizado foi extraído da plataforma de dados abertos [Kaggle](https://www.kaggle.com/datasets/ilkeryildiz/emergency-service-triage-application) e possui 1267 registros de pacientes admitidos em um pronto-socorro da Coreia do Sul entre os meses de outubro de 2016 e setembro de 2017.
 
 | Atributo | Tipo | Descrição |
 |--- |--- |--- |
@@ -62,7 +62,7 @@ O dataset a ser utilizado foi extraído da plataforma de dados abertos [Kaggle](
 | id_transporte | int | 1: A pé, 2: Ambulância pública, 3: Veículo próprio, 4: Ambulância privada, 5: Veículo público, 6: Cadeira de rodas, 7: Outro
 | ferimento | int | 1: Sem ferimento, 2: Com ferimento
 | queixa_paciente | varchar(45) | Descrição da queixa do paciente
-| id_estado_mental | int | 1: Consciente, 2: Resposta verbal, 3: Resposta a dor, 4: Incosciente
+| id_estado_mental | int | 1: Consciente, 2: Resposta verbal, 3: Resposta a dor, 4: Inconsciente
 | dor | int | 1: Com dor, 2: Sem dor
 | escala_dor | int | Escala de dor 0 a 10
 | pressao_sistolica | int | Pressão sistólica (mmHg)
@@ -100,23 +100,24 @@ Os planos de fundo das duas telas do dashboard foram construídas no Figma, um e
 
 ## 6. Resultados
 
-Quesitos que o dashboard tem que responder, entre outros:
--	A quantidade de pacientes em risco 3-urgente, 2-emergencial e 1-ressuscitação;
--	Tempo médio de duração da triagem total e por classificação de risco;
--	Porcentagem de acurácia entre a classificação de risco feita pelo enfermeiro de primeiro atendimento na triagem e o enfermeiro expert, já no atendimento médico;
+![Captura de tela 2022-11-11 161843](https://user-images.githubusercontent.com/96497622/201425086-1337122e-db2e-4828-b3a3-5edb73a61214.png)
 
 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9)
 
-![Captura de tela 2022-11-11 135448](https://user-images.githubusercontent.com/96497622/201401213-d5f1cb5e-1e38-4eae-ab8c-673bbc339b1e.png)
-
-![Captura de tela 2022-11-11 135508](https://user-images.githubusercontent.com/96497622/201401229-a9573055-91fc-4abf-ab0a-07251cb7694a.png)
-
-Ao longo de 3 sprints, foram desenvolvidas as atividades planejadas no backlog do produto, resultando em uma aplicação que é capaz de receber os dados de registros médicos de pacientes, armazená-los e processá-los para gerar dashboards em tempo real que auxiliam o processo de triagem de prontos-socorros.
-
 Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas. E um ponto interessante é a possibilidade de extrair insights tanto gerenciais, quanto operacionais. O dashboard Visão Geral traz informações amplas sobre os atendimentos do pronto-socorro, como a média total de tempo de triagem e a quantidade de pacientes em cada ala do hospital, durante e após a triagem. Já o dashboard Detalhamento contém informações mais específicas da área médica, como a correlação idade vs oximetria, pressão sistólica vs diastólica, além do grau de risco atribuído pelo enfermeiro da triagem inicial e o enfermeiro expert.
+
+### Insights Obtidos
+
+- A média geral do tempo de triagem está em 5,49min. As categorias de risco maior, Risco 1 e Risco 2, apresentam tempo abaixo da média, respectivamente, em 4,87min e 4,61min.
+- A maioria dos pacientes atendidos foram classificados nos riscos 4 e 5, compondo 75% do total de pacientes.
+- Quanto à avaliação de risco entre a primeira triagem e a triagem expert, atingiu acurácia de 85%, mediante uma meta de 80%, considerado um indicador positivo, ou seja, quanto maior melhor.
+- Observa-se que os pacientes encaminhados para UTI não possuem medição de oximetria durante a triagem.
+
+
 
 ## 7. Experiências Vivenciadas
 
+- Ao longo de 3 sprints, foram desenvolvidas as atividades planejadas no backlog do produto, resultando em uma aplicação que é capaz de receber os dados de registros médicos de pacientes, armazená-los e processá-los para gerar dashboards em tempo real que auxiliam o processo de triagem de prontos-socorros.
 - É essencial conhecer a área de negócios para o qual está desenvolvendo um projeto de BI. Neste caso, ter conhecimento dos valores de referências de atributos médicos ajudou a realizar o processo de análise exploratória dos dados e a plotar os gráficos e o estabelecimento das linhas de especificação.
 - Foi necessário criar uma coluna para id_paciente, visto que o dataset não tinha um identificador único para cada registro de paciente.
 
