@@ -129,4 +129,4 @@ Foi considerado no projeto o desenvolvimento de uma aplicação em `Power Apps` 
 - Desenvolver os comandos para a exportação do preenchimento para uma tabela e;
 - Criar conexão entre o aplicativo diretamente para o dashboard em Power BI.
 
-[Link para visualizar aplicativo](https://drive.google.com/file/d/1ZrSCR1J-C6I_MPEk_WV_K0J0SZhjVh09/view?usp=sharing)
+🔗 [Link para visualizar aplicativo](https://drive.google.com/file/d/1ZrSCR1J-C6I_MPEk_WV_K0J0SZhjVh09/view?usp=sharing)
