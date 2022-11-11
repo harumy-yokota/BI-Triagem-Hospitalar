@@ -128,3 +128,5 @@ Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas
 Foi considerado no projeto o desenvolvimento de uma aplicação em `Power Apps` para a coleta assíncrona de informações médicas dos pacientes, antes que cheguem ao pronto-socorro. O aplicativo foi desenvolvido e testado em seu preenchimento, porém ficará como ações a serem desenvolvidas: 
 - Desenvolver os comandos para a exportação do preenchimento para uma tabela e;
 - Criar conexão entre o aplicativo diretamente para o dashboard em Power BI.
+
+[Link para visualizar aplicativo](https://drive.google.com/file/d/1ZrSCR1J-C6I_MPEk_WV_K0J0SZhjVh09/view?usp=sharing)
