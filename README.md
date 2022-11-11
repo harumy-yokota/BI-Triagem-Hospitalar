@@ -102,7 +102,7 @@ Os planos de fundo das duas telas do dashboard foram construídas no Figma, um e
 
 ![Captura de tela 2022-11-11 161843](https://user-images.githubusercontent.com/96497622/201425086-1337122e-db2e-4828-b3a3-5edb73a61214.png)
 
-[Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection)
+🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection)
 
 Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas. E um ponto interessante é a possibilidade de extrair insights tanto gerenciais, quanto operacionais. O dashboard Visão Geral traz informações amplas sobre os atendimentos do pronto-socorro, como a média total de tempo de triagem e a quantidade de pacientes em cada ala do hospital, durante e após a triagem. Já o dashboard Detalhamento contém informações mais específicas da área médica, como a correlação idade vs oximetria, pressão sistólica vs diastólica, além do grau de risco atribuído pelo enfermeiro da triagem inicial e o enfermeiro expert.
 
