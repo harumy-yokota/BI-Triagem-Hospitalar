@@ -95,13 +95,11 @@ Quesitos que o dashboard tem que responder, entre outros:
 
 ### Dashboard
 
-Link para acessar o dashboard:
+[Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9)
 
-![Captura de tela 2022-11-10 201347](https://user-images.githubusercontent.com/96497622/201232629-139de33c-df62-4955-a6ce-966097fa08b2.png)
+![Captura de tela 2022-11-11 135448](https://user-images.githubusercontent.com/96497622/201401213-d5f1cb5e-1e38-4eae-ab8c-673bbc339b1e.png)
 
-![Captura de tela 2022-11-10 201400](https://user-images.githubusercontent.com/96497622/201232655-7f01ec7c-c7ce-46db-abaf-d50f7572e236.png)
-
-
+![Captura de tela 2022-11-11 135508](https://user-images.githubusercontent.com/96497622/201401229-a9573055-91fc-4abf-ab0a-07251cb7694a.png)
 
 ## 7. Experiências Vivenciadas
 
