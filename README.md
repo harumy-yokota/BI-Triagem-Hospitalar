@@ -34,7 +34,7 @@ Foram elaborados os mapas de empatia do paciente e do enfermeiro, nesta ordem.
 
 ## 3. Solução Proposta
 
-Será entregue um dashboard em PowerBI, para gestão dos indicadores e rotina de atendimento dos processos de triagem do pronto-socorro. Dessa forma, o trabalho de categorização de pacientes na triagem por meio de técnicas de business intelligence e análise e exploração de dados, poderá auxiliar esses profissionais em uma análise mais rápida para ajudar a acelerar o fluxo de atendimento de urgências e emergências.
+Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina de atendimento dos processos de triagem do pronto-socorro. Dessa forma, o trabalho de categorização de pacientes na triagem por meio de técnicas de business intelligence e análise e exploração de dados, poderá auxiliar esses profissionais em uma análise mais rápida para ajudar a acelerar o fluxo de atendimento de urgências e emergências.
 
 ### Backlog do Produto
 
@@ -70,12 +70,39 @@ O dataset a ser utilizado foi extraído da plataforma de dados abertos [Kaggle](
 | tempo_PS_min | int | Tempo no pronto-socorro (min)
 | duracao_triagem_min | decimal(3,2) | Tempo de duração da triagem (min)
 
-Com as colunas acima foi criada uma tabela fato 'triage' no `MySQL`, contendo as informações de atendimento de cada paciente. Também foram criadas e populadas as tabelas dimensão 'risco', 'transporte', 'estado_mental' e 'atendimento'.
+Foram escritas instruções `SQL` para criar uma tabela fato 'triage' no `MySQL`, contendo as informações de atendimento de cada paciente. Também foram criadas e populadas as tabelas dimensão 'risco', 'transporte', 'estado_mental' e 'atendimento'.
 
-Foram realizados procedimentos ETL nos dados, ainda em ambiente do banco de dados
+Foram realizados procedimentos ETL nos dados, ainda em ambiente do banco de dados, para tratar valores ausentes e outliers. Após o ETL as tabelas foram conectadas ao `Power BI`.
 
-## 5. Ferramentas
+![dsfsdfsd](https://user-images.githubusercontent.com/96497622/201231190-cf87e3a4-5f42-4750-9ce0-c7b06757b920.png)
 
-## 6. Técnicas de Análise
+## 5. Técnicas de Análise
 
-## 7. Resultados
+Foram utilizadas técnicas de exploração dos dados (AED) para agregação e sumarização dos registros, para atender o objetivo do projeto, além de conceitos de bancos de dados relacionais e modelagem de dados para fazer o relacionamento entre as tabelas.
+
+![Captura de tela 2022-11-10 195140](https://user-images.githubusercontent.com/96497622/201232131-83201a55-839e-4d1c-b4dd-9ca61c42986e.png)
+
+Como o objetivo da construção dos dashboards é auxiliar no processo de triagem, facilitando as atividades dos enfermeiros e médicos plantonistas, o dashboard foi construído em duas frentes distintas: no formato gerencial, que foi chamado de “Visão Geral” e o formato operacional, que foi intitulado “Detalhamento”. Dessa forma, haverá informações resumidas tanto para o chefe em plantão do pronto-socorro, quanto as informações detalhadas a respeito dos atendimentos e das informações médicas dos pacientes para os enfermeiros e técnicos de saúde.
+
+Os planos de fundo das duas telas do dashboard foram construídas no Figma, um editor online para design de interface.
+
+## 6. Resultados
+
+Quesitos que o dashboard tem que responder, entre outros:
+-	A quantidade de pacientes em risco 3-urgente, 2-emergencial e 1-ressuscitação;
+-	Tempo médio de duração da triagem total e por classificação de risco;
+-	Porcentagem de acurácia entre a classificação de risco feita pelo enfermeiro de primeiro atendimento na triagem e o enfermeiro expert, já no atendimento médico;
+
+### Dashboard
+
+Link para acessar o dashboard:
+
+![Captura de tela 2022-11-10 201347](https://user-images.githubusercontent.com/96497622/201232629-139de33c-df62-4955-a6ce-966097fa08b2.png)
+
+![Captura de tela 2022-11-10 201400](https://user-images.githubusercontent.com/96497622/201232655-7f01ec7c-c7ce-46db-abaf-d50f7572e236.png)
+
+
+
+## 7. Experiências Vivenciadas
+
+## Próximos Passos
