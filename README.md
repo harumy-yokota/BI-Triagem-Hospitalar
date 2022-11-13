@@ -2,6 +2,16 @@
 
 <img width="1800" alt="Triagem Hospitalar" src="https://user-images.githubusercontent.com/96497622/201183316-0a61a1a5-a99f-4bdb-9aac-0edd12e43216.png">
 
+## 0. Sumário
+
+1. Objetivo  
+2. Contexto  
+3. Solução Proposta  
+4. Estrutura dos Dados  
+5. Técnicas de Análise  
+6. Resultados (🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection))  
+7. Experiências Vivenciadas  
+8. Próximos Passos
 
 
 ## 1. Objetivo
@@ -9,6 +19,12 @@
 Este projeto foi desenvolvido para fins de conclusão do curso de MBA em Business Intelligence da [XP Educação](https://www.xpeducacao.com.br/). O objetivo é integrar os conhecimentos aprendidos durante os módulos do curso e aplicar em desafio de cenário real, utilizando técnicas e conceitos de design thinking. 
 
 Este repositório é um resumo do relatório final elaborado para o Projeto Aplicado e será apresentado abaixo com o contexto do desafio e as etapas até chegar na solução.
+
+🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection)
+
+![Captura de tela 2022-11-11 135448](https://user-images.githubusercontent.com/96497622/201499494-eadb085a-d9ab-4017-8ff6-097752a737ee.png)
+
+![Captura de tela 2022-11-11 161800](https://user-images.githubusercontent.com/96497622/201499499-b66b092c-379c-4239-9366-36a258e21cc3.png)
 
 
 
