@@ -4,18 +4,18 @@
 
 ## 0. Sumário
 
-[1. Objetivo](#1-objetivo)  
-2. Contexto  
-3. Solução Proposta  
-4. Estrutura dos Dados  
-5. Técnicas de Análise  
-6. Resultados (🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection))  
-7. Experiências Vivenciadas  
-[8. Próximos Passos](8-próximos-passos)
+[1- Objetivo](#1--objetivo)  
+[2- Contexto](2--contexto)  
+[3- Solução Proposta](3--solução-proposta)  
+[4- Estrutura dos Dados](4--estrutura-dos-dados)  
+[5- Técnicas de Análise](5--técnicas-de-análise)  
+[6- Resultados](6--resultados) (🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection))  
+[7- Experiências Vivenciadas](7--experiências-vivenciadas)  
+[8- Próximos Passos](#8--próximos-passos)
 
-## teste
 
-## 1-Objetivo
+
+## 1- Objetivo
 
 Este projeto foi desenvolvido para fins de conclusão do curso de MBA em Business Intelligence da [XP Educação](https://www.xpeducacao.com.br/). O objetivo é integrar os conhecimentos aprendidos durante os módulos do curso e aplicar em desafio de cenário real, utilizando técnicas e conceitos de design thinking. 
 
@@ -23,7 +23,7 @@ Este repositório é um resumo do relatório final elaborado para o Projeto Apli
 
 
 
-## 2. Contexto
+## 2- Contexto
 
 Analisando o contexto das unidades de pronto-socorro de hospitais, notou-se uma forte importância no processo de priorização de atendimentos em níveis de gravidade. Tal decisão impacta significativamente a priorização e agilidade de atuação do tratamento em pacientes com sintomas e casos com risco maior de se tornarem emergências. A classificação existente e amplamente utilizada em boa parte do mundo é a triagem de Manchester, que divide os pacientes em cinco categorias de riscos, com base em cores distintas: Emergência, Muito Urgente, Urgente, Pouco Urgente e Não Urgente.
 
@@ -49,7 +49,7 @@ Foram elaborados os mapas de empatia do paciente e do enfermeiro, nesta ordem.
 
 
 
-## 3. Solução Proposta
+## 3- Solução Proposta
 
 Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina de atendimento dos processos de triagem do pronto-socorro. Dessa forma, o trabalho de categorização de pacientes na triagem por meio de técnicas de business intelligence e análise e exploração de dados poderá auxiliar esses profissionais em uma análise mais rápida para ajudar a acelerar o fluxo de atendimento de urgências e emergências.
 
@@ -61,7 +61,7 @@ Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina
 
 
 
-## 4. Estrutura dos Dados
+## 4- Estrutura dos Dados
 
 O dataset utilizado foi extraído da plataforma de dados abertos [Kaggle](https://www.kaggle.com/datasets/ilkeryildiz/emergency-service-triage-application) e possui 1267 registros de pacientes admitidos em um pronto-socorro da Coreia do Sul entre os meses de outubro de 2016 e setembro de 2017.
 
@@ -97,7 +97,7 @@ Foram realizados procedimentos ETL nos dados, ainda em ambiente do banco de dado
 
 
 
-## 5. Técnicas de Análise
+## 5- Técnicas de Análise
 
 Foram utilizadas técnicas de exploração dos dados (AED) para agregação e sumarização dos registros, para atender o objetivo do projeto, além de conceitos de bancos de dados relacionais e modelagem de dados para fazer o relacionamento entre as tabelas.
 
@@ -109,7 +109,7 @@ Os planos de fundo das duas telas do dashboard foram construídas no Figma, um e
 
 
 
-## 6. Resultados
+## 6- Resultados
 
 ![Captura de tela 2022-11-11 161843](https://user-images.githubusercontent.com/96497622/201425086-1337122e-db2e-4828-b3a3-5edb73a61214.png)
 
@@ -126,7 +126,7 @@ Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas
 
 
 
-## 7. Experiências Vivenciadas
+## 7- Experiências Vivenciadas
 
 - Ao longo de 3 sprints, foram desenvolvidas as atividades planejadas no backlog do produto, resultando em uma aplicação que é capaz de receber os dados de registros médicos de pacientes, armazená-los e processá-los para gerar dashboards em tempo real que auxiliam o processo de triagem de prontos-socorros.
 - É essencial conhecer a área de negócios para o qual está desenvolvendo um projeto de BI. Neste caso, ter conhecimento dos valores de referências de atributos médicos ajudou a realizar o processo de análise exploratória dos dados e a plotar os gráficos e o estabelecimento das linhas de especificação.
@@ -134,7 +134,7 @@ Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas
 
 
 
-## 8-Próximos Passos
+## 8- Próximos Passos
 
 Foi considerado no projeto o desenvolvimento de uma aplicação em `Power Apps` para a coleta assíncrona de informações médicas dos pacientes, antes que cheguem ao pronto-socorro. O aplicativo foi desenvolvido e testado em seu preenchimento, porém ficará como ações a serem desenvolvidas: 
 - Desenvolver os comandos para a exportação do preenchimento para uma tabela e;
