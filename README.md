@@ -63,6 +63,8 @@ Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina
 |--- |--- |--- |
 | A. Teste e validação da base de dados <br> B. Processo ETL e Construção do data warehouse | A. Protótipo do app de triagem assíncrona <br> B. Teste e validação do app de triagem assíncrona | A. Conexão do banco de dados e ETL <br> B. Construção dos dashboards
 
+[Voltar ao início](#0--sumário)
+
 
 
 ## 4- Estrutura dos Dados
@@ -99,6 +101,8 @@ Foram realizados procedimentos ETL nos dados, ainda em ambiente do banco de dado
 
 ![dsfsdfsd](https://user-images.githubusercontent.com/96497622/201231190-cf87e3a4-5f42-4750-9ce0-c7b06757b920.png)
 
+[Voltar ao início](#0--sumário)
+
 
 
 ## 5- Técnicas de Análise
@@ -110,6 +114,8 @@ Foram utilizadas técnicas de exploração dos dados (AED) para agregação e su
 Como o objetivo da construção dos dashboards é auxiliar no processo de triagem, facilitando as atividades dos enfermeiros e médicos plantonistas, o dashboard foi construído em duas frentes distintas: no formato gerencial, que foi chamado de “Visão Geral” e o formato operacional, que foi intitulado “Detalhamento”. Dessa forma, haverá informações resumidas tanto para o chefe em plantão do pronto-socorro, quanto as informações detalhadas a respeito dos atendimentos e das informações médicas dos pacientes para os enfermeiros e técnicos de saúde.
 
 Os planos de fundo das duas telas do dashboard foram construídas no Figma, um editor online para design de interface.
+
+[Voltar ao início](#0--sumário)
 
 
 
@@ -128,6 +134,8 @@ Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas
 - Quanto à avaliação de risco entre a primeira triagem e a triagem expert, atingiu acurácia de 85%, mediante uma meta de 80%, considerado um indicador positivo, ou seja, quanto maior melhor.
 - Observa-se que os pacientes encaminhados para UTI não possuem medição de oximetria durante a triagem.
 
+[Voltar ao início](#0--sumário)
+
 
 
 ## 7- Experiências Vivenciadas
@@ -135,6 +143,8 @@ Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas
 - Ao longo de 3 sprints, foram desenvolvidas as atividades planejadas no backlog do produto, resultando em uma aplicação que é capaz de receber os dados de registros médicos de pacientes, armazená-los e processá-los para gerar dashboards em tempo real que auxiliam o processo de triagem de prontos-socorros.
 - É essencial conhecer a área de negócios para o qual está desenvolvendo um projeto de BI. Neste caso, ter conhecimento dos valores de referências de atributos médicos ajudou a realizar o processo de análise exploratória dos dados e a plotar os gráficos e o estabelecimento das linhas de especificação.
 - Foi necessário criar uma coluna para id_paciente, visto que o dataset não tinha um identificador único para cada registro de paciente.
+
+[Voltar ao início](#0--sumário)
 
 
 
