@@ -2,7 +2,7 @@
 
 <img width="1800" alt="Triagem Hospitalar v 2" src="https://user-images.githubusercontent.com/96497622/201499909-c90c53a3-777c-424c-8e77-2d5d4ecb28fe.png">
 
-## 0. Sumário
+## 0- Sumário
 
 [1- Objetivo](#1--objetivo)  
 [2- Contexto](2--contexto)  
@@ -20,6 +20,8 @@
 Este projeto foi desenvolvido para fins de conclusão do curso de MBA em Business Intelligence da [XP Educação](https://www.xpeducacao.com.br/). O objetivo é integrar os conhecimentos aprendidos durante os módulos do curso e aplicar em desafio de cenário real, utilizando técnicas e conceitos de design thinking. 
 
 Este repositório é um resumo do relatório final elaborado para o Projeto Aplicado e será apresentado abaixo com o contexto do desafio e as etapas até chegar na solução.
+
+[Voltar ao início](#0--sumário)
 
 
 
@@ -46,6 +48,8 @@ Foram elaborados os mapas de empatia do paciente e do enfermeiro, nesta ordem.
 ### Hipóteses &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Priorização de Ideias
 
 ![Captura de tela 2022-11-10 152434](https://user-images.githubusercontent.com/96497622/201187854-714118e2-38a0-43e0-a508-6bfb9026857e.png)
+
+[Voltar ao início](#0--sumário)
 
 
 
