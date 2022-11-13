@@ -5,12 +5,12 @@
 ## 0- Sumário
 
 [1- Objetivo](#1--objetivo)  
-[2- Contexto](2--contexto)  
-[3- Solução Proposta](3--solução-proposta)  
-[4- Estrutura dos Dados](4--estrutura-dos-dados)  
-[5- Técnicas de Análise](5--técnicas-de-análise)  
-[6- Resultados](6--resultados) (🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection))  
-[7- Experiências Vivenciadas](7--experiências-vivenciadas)  
+[2- Contexto](#2--contexto)  
+[3- Solução Proposta](#3--solução-proposta)  
+[4- Estrutura dos Dados](#4--estrutura-dos-dados)  
+[5- Técnicas de Análise](#5--técnicas-de-análise)  
+[6- Resultados](#6--resultados) (🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection))  
+[7- Experiências Vivenciadas](#7--experiências-vivenciadas)  
 [8- Próximos Passos](#8--próximos-passos)
 
 
