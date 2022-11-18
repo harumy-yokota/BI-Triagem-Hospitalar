@@ -137,11 +137,21 @@ Os planos de fundo das duas telas do dashboard foram construídas no Figma, um e
 
 ![logo-igti](https://user-images.githubusercontent.com/96497622/202783208-b044f5e6-e2e9-41ba-bcdf-e932080ff51f.png)
 
-🔗[Link para visualizar o aplicativo]() | `Power Apps`
+🔗[Link para visualizar o aplicativo](https://drive.google.com/file/d/1y49ISR81McG8SPlGjZMgZVUKFvkfPc8O/view?usp=sharing) | `Power Apps`
 
 🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection) | `Power BI`
 
 Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas. E um ponto interessante é a possibilidade de extrair insights tanto gerenciais, quanto operacionais. O dashboard Visão Geral traz informações amplas sobre os atendimentos do pronto-socorro, como a média total de tempo de triagem e a quantidade de pacientes em cada ala do hospital, durante e após a triagem. Já o dashboard Detalhamento contém informações mais específicas da área médica, como a correlação idade vs oximetria, pressão sistólica vs diastólica, além do grau de risco atribuído pelo enfermeiro da triagem inicial e o enfermeiro expert.
+
+### Diferencial
+
+- **Saúde**: Solução para uma das área mais críticas de um hospital, a triagem de prontos-socorros
+- **Resultado ponta a ponta**: Entrega de valor tanto para os profissionais de saúde quanto para os pacientes
+- **Custo**: Baixo custo
+- **Qualidade**: Integração de dados e Assertividade no registro de informações de pacientes
+- **Usabilidade**: Interface de fácil entendimento e multiplataforma 
+
+
 
 ### Insights Obtidos
 
@@ -166,8 +176,17 @@ Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas
 
 ## 8- Próximos Passos
 
-Foi considerado no projeto o desenvolvimento de uma aplicação em `Power Apps` para a coleta assíncrona de informações médicas dos pacientes, antes que cheguem ao pronto-socorro. O aplicativo foi desenvolvido e testado em seu preenchimento, porém ficará como ações a serem desenvolvidas: 
-- Desenvolver os comandos para a exportação do preenchimento para uma tabela e;
-- Criar conexão entre o aplicativo diretamente para o dashboard em Power BI.
+1. Atualização de Campos de Dados (Atributos)
+    - Incluir campo de data de atendimento.
+    - Padronizar o campo de diagnóstico, incluindo campo “Categoria de Diagnóstico” e outro “Descrição de Diagnóstico”.
+    - Incluir novos atributos na Stage Area, para gerar novos insights e dados analíticos de pacientes, conforme necessidade do negócio.
+2. Chaves no Data Warehouse
+    - Estruturar um modelo lógico que defina melhor as chaves primárias de cada tabela dimensão, sem precisar tratar no Power BI.
+    - Estudar solução para remover campo de ID do paciente do formulário de nova pré-triagem.
+3. Atualização do Aplicativo
+    - Aprimorar front-end do aplicativo para deixar mais amigável e intuitivo ao público.
+    - Incluir formulário de pesquisa de satisfação do aplicativo, após finalização do atendimento.
 
-🔗 [Link para visualizar aplicativo](https://drive.google.com/file/d/1ZrSCR1J-C6I_MPEk_WV_K0J0SZhjVh09/view?usp=sharing)
+
+
+
