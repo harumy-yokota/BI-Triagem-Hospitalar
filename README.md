@@ -33,6 +33,16 @@ Analisando o contexto das unidades de pronto-socorro de hospitais, notou-se uma 
 
 Os centros de triagem em prontos-socorros geralmente são o gargalo dos atendimentos. É importante aprimorar o processo de triagem desta etapa inicial do atendimento para otimizar a tomada de ação e aumentar o tempo de resposta aos sintomas e efeitos que nem sempre são perceptíveis.
 
+### Problemas
+
+- Muito tempo de espera em triagem de prontos-socorros;
+- Superlotação em triagem médica;
+- Necessidade de priorização com base na classificação de risco;
+- Demora no cadastro de pacientes para triagem e priorização de atendimentos;
+- Processos manuais;
+> Como gerenciar os processos e resultados de triagem, sem perder o foco no objetivo principal?
+
+
 ### Matriz CSD &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Observação do tipo POEMS
 
 ![eeCaptura de tela 2022-11-10 152629](https://user-images.githubusercontent.com/96497622/201188103-c19f3ed3-33e4-42ff-8b46-044a98b43a4c.png)
@@ -57,7 +67,9 @@ Foram elaborados os mapas de empatia do paciente e do enfermeiro, nesta ordem.
 
 ## 3- Solução Proposta
 
-Será entregue um dashboard em `Power BI`, para gestão dos indicadores e rotina de atendimento dos processos de triagem do pronto-socorro. Dessa forma, o trabalho de categorização de pacientes na triagem por meio de técnicas de business intelligence e análise e exploração de dados poderá auxiliar esses profissionais em uma análise mais rápida para ajudar a acelerar o fluxo de atendimento de urgências e emergências.
+Será entregue um aplicativo para registro médico em `Power Apps` e dashboards em `Power BI`, para gestão dos indicadores e rotina de atendimento dos processos de triagem do pronto-socorro. Dessa forma, o trabalho de categorização de pacientes na triagem por meio de técnicas de business intelligence e análise e exploração de dados poderá auxiliar esses profissionais em uma análise mais rápida para ajudar a acelerar o fluxo de atendimento de urgências e emergências.
+
+![Fluxo](https://user-images.githubusercontent.com/96497622/202782869-4c30ee3b-856f-422e-9fff-1640b489a967.png)
 
 ### Backlog do Produto
 
@@ -123,9 +135,11 @@ Os planos de fundo das duas telas do dashboard foram construídas no Figma, um e
 
 ## 6- Resultados
 
-![Captura de tela 2022-11-11 161843](https://user-images.githubusercontent.com/96497622/201425086-1337122e-db2e-4828-b3a3-5edb73a61214.png)
+![logo-igti](https://user-images.githubusercontent.com/96497622/202783208-b044f5e6-e2e9-41ba-bcdf-e932080ff51f.png)
 
-🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection)
+🔗[Link para visualizar o aplicativo]() | `Power Apps`
+
+🔗 [Link para acessar o dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2Njc4NDgtMDg3ZS00MDU2LTg0MDEtNjEyYzA0NGU4MDZmIiwidCI6IjhlMjFkN2IyLTg5MDYtNGI5OC1hMjNkLTAzYTM0ZjdkYThiMSJ9&pageName=ReportSection) | `Power BI`
 
 Os visuais interativos desenvolvidos em Power BI apresentam duas telas distintas. E um ponto interessante é a possibilidade de extrair insights tanto gerenciais, quanto operacionais. O dashboard Visão Geral traz informações amplas sobre os atendimentos do pronto-socorro, como a média total de tempo de triagem e a quantidade de pacientes em cada ala do hospital, durante e após a triagem. Já o dashboard Detalhamento contém informações mais específicas da área médica, como a correlação idade vs oximetria, pressão sistólica vs diastólica, além do grau de risco atribuído pelo enfermeiro da triagem inicial e o enfermeiro expert.
 
