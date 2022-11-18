@@ -2,7 +2,7 @@
 
 <img width="1800" alt="Triagem Hospitalar v 2" src="https://user-images.githubusercontent.com/96497622/201499909-c90c53a3-777c-424c-8e77-2d5d4ecb28fe.png">
 
-> OBS.: Repositório em atualização (última modificação: 12/11/2022)
+
 
 ## 0- Sumário
 
